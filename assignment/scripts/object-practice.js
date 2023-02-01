@@ -37,6 +37,15 @@ console.log(fullName);
 console.log(me.favThreeFoods[0]);
 console.log(me.favThreeFoods[2]); // Can this be written a different way?
 
+let firstFood = me.favThreeFoods[0];
+console.log(firstFood);
+
+let lastFood = me.favThreeFoods[me.favThreeFoods.length -1];
+console.log(lastFood);
+
+// console.log(me.favThreeFoods.length -1);
+
+
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
   - Guess what?! You just got a new pair of shoes!!!
@@ -55,4 +64,4 @@ console.log(me.shoeCount);
 */
 
 me.favoriteColor = 'Blue';
-console.log(me);
+console.log(me); // The object in the console sorts via alphabetical order? 
