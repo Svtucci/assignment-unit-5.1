@@ -40,7 +40,7 @@ console.log(me.favThreeFoods[2]); // Can this be written a different way?
 let firstFood = me.favThreeFoods[0];
 console.log(firstFood);
 
-let lastFood = me.favThreeFoods[me.favThreeFoods.length -1];
+let lastFood = me.favThreeFoods[me.favThreeFoods.length -1]; // we have to refer to the array as part of the object at all time, hence we need to say me.array everywhere
 console.log(lastFood);
 
 // console.log(me.favThreeFoods.length -1);
